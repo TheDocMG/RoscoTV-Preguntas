@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "packs": [
+    {
+      "id": "clasico_001",
+      "category": "classic",
+      "questions": [
+        {
+          "id": "cla_001_a",
+          "letter": "A",
+          "mode": "starts",
+          "definition": "Sustancia formada por hidrógeno y oxígeno cuya fórmula es H₂O.",
+          "answers": [
+            "Agua"
+          ]
+        },
+        {
+          "id": "cla_001_b",
+          "letter": "B",
+          "mode": "starts",
+          "definition": "Lugar donde se reúnen y organizan libros para su consulta o préstamo.",
+          "answers": [
+            "Biblioteca"
+          ]
+        },
+        {
+          "id": "cla_001_c",
+          "letter": "C",
+          "mode": "starts",
+          "definition": "Mamífero del desierto que, a diferencia del dromedario, tiene dos jorobas.",
+          "answers": [
+            "Camello"
+          ]
+        },
+        {
+          "id": "cla_001_d",
+          "letter": "D",
+          "mode": "starts",
+          "definition": "Mamífero marino de cuerpo alargado y hocico prolongado, conocido por sus saltos.",
+          "answers": [
+            "Delfín"
+          ]
+        },
+        {
+          "id": "cla_001_e",
+          "letter": "E",
+          "mode": "starts",
+          "definition": "Línea imaginaria que divide la Tierra en hemisferio norte y hemisferio sur.",
+          "answers": [
+            "Ecuador"
+          ]
+        },
+        {
+          "id": "cla_001_f",
+          "letter": "F",
+          "mode": "starts",
+          "definition": "Proceso por el que las plantas utilizan la luz para producir materia orgánica a partir de agua y dióxido de carbono.",
+          "answers": [
+            "Fotosíntesis"
+          ]
+        },
+        {
+          "id": "cla_001_g",
+          "letter": "G",
+          "mode": "starts",
+          "definition": "Instrumento musical de cuerdas que suele tener seis y se toca pulsándolas o rasgueándolas.",
+          "answers": [
+            "Guitarra"
+          ]
+        },
+        {
+          "id": "cla_001_h",
+          "letter": "H",
+          "mode": "starts",
+          "definition": "Polígono que tiene seis lados.",
+          "answers": [
+            "Hexágono"
+          ]
+        },
+        {
+          "id": "cla_001_i",
+          "letter": "I",
+          "mode": "starts",
+          "definition": "Porción de tierra rodeada de agua por todas partes.",
+          "answers": [
+            "Isla"
+          ]
+        },
+        {
+          "id": "cla_001_j",
+          "letter": "J",
+          "mode": "starts",
+          "definition": "Planeta más grande del sistema solar.",
+          "answers": [
+            "Júpiter"
+          ]
+        },
+        {
+          "id": "cla_001_k",
+          "letter": "K",
+          "mode": "starts",
+          "definition": "Unidad de longitud equivalente a mil metros.",
+          "answers": [
+            "Kilómetro"
+          ]
+        },
+        {
+          "id": "cla_001_l",
+          "letter": "L",
+          "mode": "starts",
+          "definition": "Satélite natural de la Tierra.",
+          "answers": [
+            "Luna"
+          ]
+        },
+        {
+          "id": "cla_001_m",
+          "letter": "M",
+          "mode": "starts",
+          "definition": "Instrumento que permite observar objetos demasiado pequeños para distinguirlos a simple vista.",
+          "answers": [
+            "Microscopio"
+          ]
+        },
+        {
+          "id": "cla_001_n",
+          "letter": "N",
+          "mode": "starts",
+          "definition": "Construcción que muchas aves preparan para poner huevos y criar a sus pichones.",
+          "answers": [
+            "Nido"
+          ]
+        },
+        {
+          "id": "cla_001_o",
+          "letter": "O",
+          "mode": "starts",
+          "definition": "Polígono que tiene ocho lados.",
+          "answers": [
+            "Octágono"
+          ]
+        },
+        {
+          "id": "cla_001_p",
+          "letter": "P",
+          "mode": "starts",
+          "definition": "Porción de tierra rodeada de agua salvo por una parte que la une a un territorio mayor.",
+          "answers": [
+            "Península"
+          ]
+        },
+        {
+          "id": "cla_001_q",
+          "letter": "Q",
+          "mode": "starts",
+          "definition": "Ciencia que estudia la composición, las propiedades y las transformaciones de la materia.",
+          "answers": [
+            "Química"
+          ]
+        },
+        {
+          "id": "cla_001_r",
+          "letter": "R",
+          "mode": "starts",
+          "definition": "Gran mamífero herbívoro de piel gruesa que tiene uno o dos cuernos sobre la nariz.",
+          "answers": [
+            "Rinoceronte"
+          ]
+        },
+        {
+          "id": "cla_001_s",
+          "letter": "S",
+          "mode": "starts",
+          "definition": "Planeta del sistema solar situado entre Júpiter y Urano, célebre por sus anillos.",
+          "answers": [
+            "Saturno"
+          ]
+        },
+        {
+          "id": "cla_001_t",
+          "letter": "T",
+          "mode": "starts",
+          "definition": "Instrumento utilizado para medir la temperatura.",
+          "answers": [
+            "Termómetro"
+          ]
+        },
+        {
+          "id": "cla_001_u",
+          "letter": "U",
+          "mode": "starts",
+          "definition": "Conjunto de todo el espacio, el tiempo, la materia y la energía.",
+          "answers": [
+            "Universo"
+          ]
+        },
+        {
+          "id": "cla_001_v",
+          "letter": "V",
+          "mode": "starts",
+          "definition": "Abertura de la corteza terrestre por la que pueden salir lava, gases y cenizas.",
+          "answers": [
+            "Volcán"
+          ]
+        },
+        {
+          "id": "cla_001_x",
+          "letter": "X",
+          "mode": "starts",
+          "definition": "Instrumento de percusión formado por láminas de madera que se golpean con baquetas.",
+          "answers": [
+            "Xilófono"
+          ]
+        },
+        {
+          "id": "cla_001_y",
+          "letter": "Y",
+          "mode": "starts",
+          "definition": "Nombre usado en Argentina para los caimanes sudamericanos.",
+          "answers": [
+            "Yacaré"
+          ]
+        },
+        {
+          "id": "cla_001_z",
+          "letter": "Z",
+          "mode": "starts",
+          "definition": "Hortaliza de raíz comestible generalmente anaranjada, habitual en ensaladas.",
+          "answers": [
+            "Zanahoria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clasico_002",
+      "category": "classic",
+      "questions": [
+        {
+          "id": "cla_002_a",
+          "letter": "A",
+          "mode": "starts",
+          "definition": "Insecto polinizador que produce miel y vive en colonias.",
+          "answers": [
+            "Abeja"
+          ]
+        },
+        {
+          "id": "cla_002_b",
+          "letter": "B",
+          "mode": "starts",
+          "definition": "Instrumento de orientación cuya aguja imantada señala el norte magnético.",
+          "answers": [
+            "Brújula"
+          ]
+        },
+        {
+          "id": "cla_002_c",
+          "letter": "C",
+          "mode": "starts",
+          "definition": "Marsupial australiano que se desplaza saltando con sus fuertes patas traseras.",
+          "answers": [
+            "Canguro"
+          ]
+        },
+        {
+          "id": "cla_002_d",
+          "letter": "D",
+          "mode": "starts",
+          "definition": "Duodécimo y último mes del año.",
+          "answers": [
+            "Diciembre"
+          ]
+        },
+        {
+          "id": "cla_002_e",
+          "letter": "E",
+          "mode": "starts",
+          "definition": "Ocultación total o parcial de un astro por la interposición de otro cuerpo celeste.",
+          "answers": [
+            "Eclipse"
+          ]
+        },
+        {
+          "id": "cla_002_f",
+          "letter": "F",
+          "mode": "starts",
+          "definition": "Resto o huella de un organismo del pasado conservado en las rocas.",
+          "answers": [
+            "Fósil"
+          ]
+        },
+        {
+          "id": "cla_002_g",
+          "letter": "G",
+          "mode": "starts",
+          "definition": "Gran masa de hielo que se forma por acumulación de nieve y se desplaza lentamente.",
+          "answers": [
+            "Glaciar"
+          ]
+        },
+        {
+          "id": "cla_002_h",
+          "letter": "H",
+          "mode": "starts",
+          "definition": "Cada una de las dos mitades en que puede dividirse una esfera, como la Tierra.",
+          "answers": [
+            "Hemisferio"
+          ]
+        },
+        {
+          "id": "cla_002_i",
+          "letter": "I",
+          "mode": "starts",
+          "definition": "Objeto capaz de atraer materiales como el hierro y que tiene dos polos magnéticos.",
+          "answers": [
+            "Imán"
+          ]
+        },
+        {
+          "id": "cla_002_j",
+          "letter": "J",
+          "mode": "starts",
+          "definition": "Mamífero africano conocido por su cuello muy largo y su pelaje con manchas.",
+          "answers": [
+            "Jirafa"
+          ]
+        },
+        {
+          "id": "cla_002_k",
+          "letter": "K",
+          "mode": "starts",
+          "definition": "Fruta de piel marrón y vellosa, con pulpa habitualmente verde y pequeñas semillas negras.",
+          "answers": [
+            "Kiwi"
+          ]
+        },
+        {
+          "id": "cla_002_l",
+          "letter": "L",
+          "mode": "starts",
+          "definition": "Órgano del aparato respiratorio donde se encuentran las cuerdas vocales.",
+          "answers": [
+            "Laringe"
+          ]
+        },
+        {
+          "id": "cla_002_m",
+          "letter": "M",
+          "mode": "starts",
+          "definition": "Planeta situado entre la Tierra y Júpiter, conocido como el planeta rojo.",
+          "answers": [
+            "Marte"
+          ]
+        },
+        {
+          "id": "cla_002_n",
+          "letter": "N",
+          "mode": "starts",
+          "definition": "Planeta más alejado del Sol entre los ocho del sistema solar.",
+          "answers": [
+            "Neptuno"
+          ]
+        },
+        {
+          "id": "cla_002_o",
+          "letter": "O",
+          "mode": "starts",
+          "definition": "Conjunto de músicos que interpreta obras con diversos instrumentos, habitualmente bajo una dirección.",
+          "answers": [
+            "Orquesta"
+          ]
+        },
+        {
+          "id": "cla_002_p",
+          "letter": "P",
+          "mode": "starts",
+          "definition": "Ave marina del hemisferio sur que no vuela y tiene alas adaptadas para nadar.",
+          "answers": [
+            "Pingüino"
+          ]
+        },
+        {
+          "id": "cla_002_q",
+          "letter": "Q",
+          "mode": "starts",
+          "definition": "Período de quince días.",
+          "answers": [
+            "Quincena"
+          ]
+        },
+        {
+          "id": "cla_002_r",
+          "letter": "R",
+          "mode": "starts",
+          "definition": "Instrumento que sirve para medir e indicar la hora.",
+          "answers": [
+            "Reloj"
+          ]
+        },
+        {
+          "id": "cla_002_s",
+          "letter": "S",
+          "mode": "starts",
+          "definition": "Dispositivo luminoso que regula el tránsito con luces rojas, amarillas y verdes.",
+          "answers": [
+            "Semáforo"
+          ]
+        },
+        {
+          "id": "cla_002_t",
+          "letter": "T",
+          "mode": "starts",
+          "definition": "Instrumento óptico utilizado para observar objetos lejanos, como estrellas y planetas.",
+          "answers": [
+            "Telescopio"
+          ]
+        },
+        {
+          "id": "cla_002_u",
+          "letter": "U",
+          "mode": "starts",
+          "definition": "Planeta del sistema solar situado entre Saturno y Neptuno.",
+          "answers": [
+            "Urano"
+          ]
+        },
+        {
+          "id": "cla_002_v",
+          "letter": "V",
+          "mode": "starts",
+          "definition": "Instrumento de cuatro cuerdas que se toca habitualmente con arco y se apoya entre el hombro y el mentón.",
+          "answers": [
+            "Violín"
+          ]
+        },
+        {
+          "id": "cla_002_x",
+          "letter": "X",
+          "mode": "contains",
+          "definition": "elemento químico de símbolo O, necesario para la respiración humana.",
+          "answers": [
+            "Oxígeno"
+          ]
+        },
+        {
+          "id": "cla_002_y",
+          "letter": "Y",
+          "mode": "starts",
+          "definition": "Parte amarilla del interior de un huevo.",
+          "answers": [
+            "Yema"
+          ]
+        },
+        {
+          "id": "cla_002_z",
+          "letter": "Z",
+          "mode": "starts",
+          "definition": "Rama de la biología que estudia los animales.",
+          "answers": [
+            "Zoología"
+          ]
+        }
+      ]
+    }
+  ]
+}
