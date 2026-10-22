@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
-  "version": 1,
-  "file": "banco-v1.json"
+  "schemaVersion": 2,
+  "version": 3,
+  "file": "banco-clasico-v3.json"
 }

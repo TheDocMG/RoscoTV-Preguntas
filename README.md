@@ -1,60 +1,34 @@
-# Rosco TV — banco inicial
+# Rosco TV — Preguntas
 
-Versión 1: dos roscos de Clásico, de 25 letras cada uno; 50 preguntas.
-No hay roscos todavía para Kids, Pop & Cine, Picante ni Deportes.
-Es una selección inicial para probar el juego, sin calibración de dificultad.
+Banco externo de Rosco TV. Esta edición contiene **2700 preguntas del modo Clásico**: 200 con access=free y 2500 con access=premium. Cada letra suma 108: 8 del banco gratuito anterior más 100 nuevas, repartidas en 25 fáciles, 50 medias y 25 difíciles. Se usan 25 letras: ABCDEFGHIJKLMNOPQRSTUVXYZ.
 
-## Primera publicación
+## Estado actual: pruebas completas
 
-1. Abrir https://github.com/TheDocMG/RoscoTV-Preguntas
-2. Usar Add file → Upload files.
-3. Subir los archivos de esta carpeta directamente a la raíz del repositorio
-   (no subir el ZIP ni la carpeta contenedora).
-4. Guardar el commit en la rama main.
-5. Abrir https://raw.githubusercontent.com/TheDocMG/RoscoTV-Preguntas/main/version.json
-   y comprobar que muestra schemaVersion, version y file.
-6. Reiniciar Rosco TV o usar el botón de actualización en configuración.
+La Entrega 18 de la app permite jugar con **todas las preguntas activas**, independientemente de access. Las etiquetas se conservan para la monetización futura. Este repositorio es público y, por decisión del proyecto para esta etapa, sirve también el contenido premium sin exigir compras.
 
-No requiere GitHub Pages ni Render. La app consulta la URL Raw configurada.
-Si la rama publicada no es main, hay que ajustar VITE_QUESTION_BANK_URL
-al nombre real de la rama y reiniciar el acceso de prueba.
-La lectura real desde GitHub queda pendiente hasta publicar estos archivos.
+El catálogo de esta versión corresponde al Clásico. Kids y los Especiales se habilitarán en la app cuando este banco incluya suficientes preguntas de sus respectivas categorías; la app ya admite categorías con preguntas premium durante las pruebas.
 
-## Validación local
+## Archivos que lee la app
 
-Con Node instalado, abrir una terminal en esta carpeta y ejecutar:
+- version.json: manifiesto que anuncia la versión y el archivo del banco.
+- banco-clasico-v3.json: catálogo de esquema 2, versión 3, con las 2700 preguntas.
 
-    node validar-banco.mjs
+El campo file del manifiesto debe coincidir exactamente con el nombre del catálogo. Subir ambos a la raíz de la rama main en el mismo commit. No renombrarlos ni subir la carpeta que los contiene.
 
-No requiere npm install. Si informa ERROR, no publicar hasta corregirlo.
-El control verifica estructura y correspondencia de letras, no exactitud editorial.
+Dirección configurada en la app:
+https://raw.githubusercontent.com/TheDocMG/RoscoTV-Preguntas/main/version.json
 
-## Actualizaciones futuras
+Archivo anunciado:
+https://raw.githubusercontent.com/TheDocMG/RoscoTV-Preguntas/main/banco-clasico-v3.json
 
-1. Copiar banco-v1.json a banco-v2.json, editar preguntas y poner version: 2.
-2. En version.json poner version: 2 y file: "banco-v2.json".
-3. Ejecutar node validar-banco.mjs.
-4. Publicar primero banco-v2.json y después version.json, o ambos juntos
-   en el mismo commit. No borrar los archivos de versiones anteriores.
-5. Las apps que ya descargaron la versión 1 obtendrán la 2 al volver a iniciar
-   o pulsar actualizar. No hay que reinstalar la aplicación.
+Al iniciar, la app consulta el manifiesto, descarga el catálogo si es nuevo y conserva una copia válida en caché. También permite actualizar manualmente desde configuración. La primera descarga requiere Internet; TV y celulares deben compartir la red local para jugar.
 
-No sobrescribir contenido de una versión publicada conservando el mismo número:
-la app evita descargar otra vez una versión que ya tiene.
-Cada versión contiene el banco completo; no son parches incrementales.
+## Validación y edición
 
-## Contrato
+Con Node instalado, ejecutar: node validar-banco.mjs
 
-Manifiesto: schemaVersion, version entero positivo, file (nombre del archivo).
-Banco: schemaVersion: 1, version idéntica al manifiesto, packs.
-Pack: id único, category, questions.
-Pregunta: id único, letter, mode, definition, answers (lista de respuestas válidas).
-mode: starts (empieza por) o contains (contiene).
+El control valida las cantidades de esta edición, esquema, versiones, IDs, categorías, modalidades, dificultades y respuestas compatibles con las letras. Para ampliar a otras categorías o aumentar cantidades hay que actualizar esos cupos del validador; no es un límite de la app.
 
-Alfabeto actual: ABCDEFGHIJKLMNOPQRSTUVXYZ, sin Ñ ni W.
-Categorías: classic, kids, pop_cine, hot_previa, sports.
-Cada rosco contiene exactamente una pregunta por cada letra del alfabeto.
-Las mayúsculas y tildes se ignoran al validar correspondencia de respuesta y letra.
+Para corregir una pregunta: conservar id y variantGroup, editar la pista o alternativas e incrementar revision. Para publicar contenido nuevo: incrementar también version tanto en el banco como en version.json y subirlos juntos. No borrar el historial de la app al actualizar preguntas.
 
-Si solo hay un rosco en una categoría ambos equipos pueden recibirlo;
-si hay dos o más, la app elige uno diferente para cada equipo.
+REVISION-PREGUNTAS.csv permite revisar el catálogo en una planilla. La dificultad es inicial; las pruebas técnicas no sustituyen la revisión editorial de todas las pistas. Las fuentes están identificadas en los documentos incluidos y en los registros que contienen source.
